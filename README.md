@@ -1,6 +1,8 @@
 # libbioneuronqp
 **A synaptic weight solver for single and two-comparment LIF neurons with current- or conductance-based synapses.**
 
+### ⚠ This library is deprecated, please use [libnlif](https://github.com/astoeckel/libnlif) instead.
+
 ![Visualisation of the synaptic weight space of a low-dimensional toy problem.](doc/weight_space.png)
 
 *libbioneuronqp* is a fast weight solver for two-compartment LIF neurons with conductance-based synapses using the [OSQP library](https://www.osqp.org/). *libbioneuronqp* is written in C++ and exposes a C API. The code is intended to be used via the supplied Python binding.
